@@ -1,0 +1,129 @@
+.contacthead{
+    text-align: center;
+    color:#4b7bec ;
+    padding-bottom: 20px;
+}
+.contactpase{
+    border: 2px solid white;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 10px;
+    display: flex;
+    background: #f7f8f853;
+    overflow: hidden;
+    
+}
+.contactimg img{
+    width: 400px;
+    height: 300px;
+}
+.contactimg img{
+padding-right: 20px;
+animation: imgUp 0.7s linear infinite alternate; 
+}
+@keyframes imgUp{
+to{
+  transform:translatey(-10px);
+}
+}
+.contactP{
+  padding: 20px;
+  font-size: 20px;
+  
+  
+}
+
+.connect a{
+    padding: 10px;
+}
+.message{
+ background: rgba(240, 248, 255, 0.766);
+}
+.smsbtn{
+    background:#4b7bec;
+    color: white;
+    border: 2px solid #4b7bec;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: solid beige 2px 2px 2px 2px;
+    display:block;
+    margin: auto;
+    font-size:15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px white;
+}
+.smsbtn:hover{
+ box-shadow: 0px 0px 30px 10px white;
+ 
+}
+legend{
+    margin-top: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.sendicon{
+font-size: 18px;
+margin-left: 5px;
+
+
+}
+@media screen and (max-width:1000px) {
+    .contactpase{
+        border: 2px solid white;
+        margin: auto;
+        width: 90%;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        background: #f7f8f853;
+
+        
+    }
+    .contactimg img{
+        width: 400px;
+        height: 300px;
+    }
+    .contactP{
+      padding-left: 20px;
+      font-size: 20px;
+      word-spacing: 2px;
+    }
+    
+    .connect a{
+        padding: 10px;
+    }
+    .message{
+     background: rgba(240, 248, 255, 0.766);
+     width: 250px;
+    }
+    .smsbtn{
+        background:#4b7bec;
+        color: white;
+        border: 2px solid #4b7bec;
+        width: 30%;
+        height: 40px;
+        border-radius: 5px;
+        box-shadow: solid beige 2px 2px 2px 2px;
+        display:block;
+        margin: auto;
+        font-size:15px;
+        margin: 10px;
+        cursor: pointer;
+    
+    }
+    legend{
+        margin-top: 20px;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  .contactinput{
+  width: 250px;
+  }
+}

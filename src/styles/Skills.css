@@ -1,0 +1,31 @@
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+
+}
+.skills{
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    
+   
+}
+.skill{
+    padding: 20px 48px 20px 48px;
+    text-align: center;
+}
+.skillHr{
+width:50% ;
+border:1px solid #4b7bec;
+}
+.skillHead{
+    text-align: center;
+    color: #4b7bec;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+    }
+
+

@@ -1,0 +1,108 @@
+.skillAdd{
+ display: flex;
+ flex-direction: column;
+border:1px solid #4b7bec;
+margin-top: 70px;
+height: 300px;
+width: 400px;
+padding: 10px;
+padding-top: 30px;
+box-shadow: #4b7bec 0px 0px 8px 0px;
+border-radius: 5px;
+
+}
+.adminbox{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-left:20px;
+margin-right:20px;
+margin-bottom:30px;
+margin-top: 80px;
+
+}
+
+  .projectAdd{
+    display: flex;
+    flex-direction: column;
+   border:1px solid #4b7bec;
+   margin-top: 70px;
+   height: 300px;
+   width: 400px;
+   padding: 10px;
+   padding-top: 10px;
+   box-shadow: #4b7bec 0px 0px 8px 0px;
+   border-radius: 5px;
+   
+   }
+  
+ 
+     .addbtn{
+        background:#4b7bec;
+        color: white;
+        border: 2px solid #4b7bec;
+        width: 30%;
+        height: 40px;
+        border-radius: 5px;
+        box-shadow: solid beige 2px 2px 2px 2px;
+        display:block;
+        margin: auto;
+        margin-top: 20px;
+      cursor: pointer;
+        font-size:15px;
+        
+    }
+    h4{
+    margin-top: 2px;
+    margin-bottom: 5px;
+    }
+
+.skillinput{
+  width: 80%;
+ 
+  background: #f0f1f445;
+  border: 2px solid #4b7bec80;
+  border-radius: 5px;
+  outline-color: #4b7bec;
+  margin: 5px;
+  align-self: center;
+  padding: 2px;
+}    
+.logout{
+margin-left: 45%;
+width:100px;
+height: 40px;
+background-color: #034df800;
+border-radius: 2px;
+cursor: pointer;
+color: #4b7bec;
+border: 1px solid #4b7bec;
+}
+.logout:hover{
+background-color: #4b7bec0e;
+}
+.changepassword{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.changepassword input{
+width: 300px;
+margin: 5px;
+padding: 5px;
+outline-color: red;
+background: #fff5f5;
+border: 1px solid red;
+border-radius: 2px;
+} 
+.changepasswordbtn{
+background:#ff4242 ;
+border: 1px solid #ff4242;
+border-radius: 2px;
+color: white;
+width: 100px;
+margin-bottom: 50px;
+padding: 5px;
+margin-top: 10px;
+}

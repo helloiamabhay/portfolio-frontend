@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+*{
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loginbtn{
+    background:#4b7bec;
+    color: white;
+    border: 2px solid #4b7bec;
+    width: 35%;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: solid beige 2px 2px 2px 2px;
+    display:block;
+    margin: auto;
+    margin-top: 50px;
+    font-size:15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+.logininput{
+    width:400px;
+    margin: 20px;
+}
+.footer{
+    background: #4b7bec;
+    color: aliceblue;
+    padding: 20px;
+    margin-top: 50px;  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.notfound{
+text-align: center;
+margin-top: 140px;
+margin-bottom: 140px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.forgetpassword{
+margin-left: 50%;
+color: #3265dc;
 }
-
-.App-link {
-  color: #61dafb;
+.forgetbox{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 180px;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.forgetinput{
+    width: 300px;
+    
+}
+.resetpassword{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 110px;
+margin-bottom: 150px;
+padding: 20px;
+}
+@media screen and (max-width: 450px) {
+    .forgetbox{
+        text-align: center;
+     margin-bottom: 410px;
+     margin-top: 250px;
+      
+    }
+    .resetpassword{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 210px;
+margin-bottom: 450px;
+padding: 20px;
+}
+    
 }

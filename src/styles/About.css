@@ -1,0 +1,30 @@
+.aboutPase{
+    /* border: 0.1px solid #4b7bec; */
+    margin: 55px 80px 10px 80px;
+     
+    
+}
+.aboutDetails{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.aboutDetails p{
+    width: 400px;
+    margin: 5px;
+}
+h2{
+    color: #4b7bec;
+}
+p{
+    /* color: rgb(88, 80, 80); */
+    color: #4b7becea;
+
+}
+@media screen and (max-width: 450px) {
+    .aboutPase{
+        margin: 55px 50px 10px 50px;
+        
+    }
+}
+

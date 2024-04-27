@@ -1,0 +1,72 @@
+.projectHr{
+    width:50% ;
+    border:1px solid #4b7bec;
+    }
+.projectHead{
+        text-align: center;
+        color: #4b7bec;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top: 45px;
+    }
+.project{
+    text-align: center;
+    width: 350px;
+    padding: 50px;
+ 
+    }
+.project img{
+    width: 250px;
+    height: 200px; 
+    transition: 0.5s;
+      
+}
+
+.box{
+    border: 2px solid white;
+    box-shadow: 0px 0px 5px 0px white;
+    padding:5px;
+    width:270px;
+    transition: 0.5s;
+}
+.box:hover{
+    box-shadow: 0px 0px 5px 0px #4b7bec;
+
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.soursecode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    
+}
+.soursecode a{
+    padding-right: 10px;   
+    
+}
+
+.knowmore{
+position: absolute;
+padding: 80px 0px 0px 80px;
+color: #4b7bec;
+font-size: 18px;
+ transition: 0.5s;
+ opacity: 0;
+}
+.knowmore:hover{
+    text-shadow: 0px 0px 2px rgb(255, 255, 255);
+    font-size: 20px;
+    filter:brightness(2px);
+    opacity: 1;
+    cursor: pointer;
+  
+    
+}
+
