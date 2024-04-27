@@ -23,6 +23,7 @@ import TextField from "@mui/material/TextField";
 import contact from "../assets/contactimg.png";
 import { sendSMS } from "../redux/actions/adminAction";
 import toast from "react-hot-toast";
+import { server } from "../redux/store";
 
 const Header = ({ isAuthenticated = false }) => {
   const [contactname, setContactname] = useState("");
@@ -36,10 +37,9 @@ const Header = ({ isAuthenticated = false }) => {
 
   const fetchSkills = async () => {
     try {
-      const response = await axios.get(
-        "http://localhost:8080/api/v1/allSkills",
-        { timeout: 2000 }
-      );
+      const response = await axios.get(`${server}/allSkills`, {
+        timeout: 2000,
+      });
       setSkills(response.data.getSkills);
     } catch (err) {
       toast.error("Please check your connection");
@@ -48,10 +48,9 @@ const Header = ({ isAuthenticated = false }) => {
   };
   const fetchProjects = async () => {
     try {
-      const response = await axios.get(
-        "http://localhost:8080/api/v1/allProjects",
-        { timeout: 2000 }
-      );
+      const response = await axios.get(`${server}/allProjects`, {
+        timeout: 2000,
+      });
       setProjects(response.data.getProjects);
     } catch (err) {
       toast.error("Please check your connection");
