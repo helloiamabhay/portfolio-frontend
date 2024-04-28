@@ -38,7 +38,7 @@ const Header = ({ isAuthenticated = false }) => {
   const fetchSkills = async () => {
     try {
       const response = await axios.get(`${server}/allSkills`, {
-        timeout: 3000,
+        timeout: 5000,
       });
       setSkills(response.data.getSkills);
     } catch (err) {
@@ -49,7 +49,7 @@ const Header = ({ isAuthenticated = false }) => {
   const fetchProjects = async () => {
     try {
       const response = await axios.get(`${server}/allProjects`, {
-        timeout: 3000,
+        timeout: 5000,
       });
       setProjects(response.data.getProjects);
     } catch (err) {
