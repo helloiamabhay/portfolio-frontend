@@ -4,6 +4,7 @@ import "../styles/About.css";
 import "../styles/Projects.css";
 import "../styles/Contact.css";
 import "../styles/Skills.css";
+import { server } from "../redux/store.js";
 import { IoIosMenu } from "react-icons/io";
 import { IoCloseOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -23,7 +24,7 @@ import TextField from "@mui/material/TextField";
 import contact from "../assets/contactimg.png";
 import { sendSMS } from "../redux/actions/adminAction";
 import toast from "react-hot-toast";
-import { server } from "../redux/store";
+
 
 const Header = ({ isAuthenticated = false }) => {
   const [contactname, setContactname] = useState("");
