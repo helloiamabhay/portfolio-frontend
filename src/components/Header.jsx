@@ -38,22 +38,22 @@ const Header = ({ isAuthenticated = false }) => {
   const fetchSkills = async () => {
     try {
       const response = await axios.get(`${server}/allSkills`, {
-        timeout: 2000,
+        timeout: 3000,
       });
       setSkills(response.data.getSkills);
     } catch (err) {
-      toast.error("Please check your connection");
+      toast.error("Please check your connection and reload");
       console.log("Error fetching data", err);
     }
   };
   const fetchProjects = async () => {
     try {
       const response = await axios.get(`${server}/allProjects`, {
-        timeout: 2000,
+        timeout: 3000,
       });
       setProjects(response.data.getProjects);
     } catch (err) {
-      toast.error("Please check your connection");
+      toast.error("Please check your connection and reload");
       console.log("Error fetching data", err);
     }
   };
