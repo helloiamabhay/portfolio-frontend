@@ -1,6 +1,7 @@
 {
-    "version": 2,
-    "name": "portfolio",
-    "builds": [{ "src": "/", "use": "@vercel/node" }],
-    "routes": [{ "src": "/", "dest": "/" }]
+    
+    "routes": [{ "src": "/", "dest": "/" },{
+        "src":"/test",
+        "dest":"/"
+    }]
   }
