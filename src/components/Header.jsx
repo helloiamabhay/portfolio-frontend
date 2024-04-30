@@ -38,7 +38,7 @@ const Header = ({ isAuthenticated = false }) => {
 
   const fetchSkills = async () => {
     try {
-      const response = await axios.get(`https://abhayvishwakarma.vercel.app/api/v1/allSkills`, {
+      const response = await axios.get(`${server}/allSkills`, {
         timeout: 5000,
       });
       setSkills(response.data.getSkills);
