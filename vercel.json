@@ -4,5 +4,5 @@
         "src":"/",
         "dest":"/"
     }],
-    "builds":[{"src":"/"},"dest":"/server.js"]
+    "builds":[{"src":"/"},"dest":"/index.js"]
   }
