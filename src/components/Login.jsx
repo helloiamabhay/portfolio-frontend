@@ -20,7 +20,7 @@ const Login = () => {
     navigate("/");
   }
   return (
-    <div>
+    <div className="loginbox">
       <Box
         component="form"
         sx={{
