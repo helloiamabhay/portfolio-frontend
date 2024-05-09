@@ -146,8 +146,9 @@ export const forgetPassword = (email) => async (dispatch) => {
     toast.success(forgetpassword.data.message);
     dispatch(forgetSuccess());
   } catch (err) {
-    dispatch(forgetSuccess());
     toast.error(err.response.data.message);
+    dispatch(forgetSuccess());
+    
   }
 };
 
