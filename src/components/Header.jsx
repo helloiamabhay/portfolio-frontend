@@ -182,7 +182,7 @@ const Header = ({ isAuthenticated = false }) => {
             <FaGithubSquare size={"38px"} color="black" />
           </a>
           <a
-            href="https://www.linkedin.com/in/abhay-vishwakarma-9aa93425a/"
+            href="https://www.linkedin.com/in/abhay-vishwakarma-%F0%9F%87%AE%F0%9F%87%B3-9aa93425a/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -261,7 +261,7 @@ const Header = ({ isAuthenticated = false }) => {
                 <FaGithubSquare size={"38px"} color="black" />
               </a>
               <a
-                href="https://www.linkedin.com/in/abhay-vishwakarma-9aa93425a/"
+                href="https://www.linkedin.com/in/abhay-vishwakarma-%F0%9F%87%AE%F0%9F%87%B3-9aa93425a/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
