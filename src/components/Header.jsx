@@ -138,7 +138,7 @@ const Header = ({ isAuthenticated = false }) => {
             ,Skills & Technologies, Continuous Learning.
           </h3>
 
-          <a href="https://drive.google.com/file/d/1sZ0fKZUY4ho5_LxmT4Rnlijp1fi-Zc0W/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/13NRYaQB8fiSYBCHsdgbbHl6MIAE70DQ8/view?usp=sharing">
             <button className="resumebtn">Download CV</button>
           </a>
         </span>
