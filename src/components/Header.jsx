@@ -129,7 +129,7 @@ const Header = ({ isAuthenticated = false }) => {
       </header>
       {/*------------------------HOME PASE---------------------------*/}
       <div className="homeBox" id="home">
-        <span className="intro">
+        <span className="intro" data-aos="fade-up-right" data-aos-duration="1000">
           <h3>Hii,</h3>
           <h1>I'm Abhay Vishwakarma</h1>
           {/* <h2>Web Developer,</h2> */}
@@ -142,12 +142,14 @@ const Header = ({ isAuthenticated = false }) => {
             <button className="resumebtn">Download CV</button>
           </a>
         </span>
-        <img src={profile} alt="" className="profile" />
+        <span data-aos="fade-up-left" data-aos-duration="1000" >
+        <img src={profile} alt=""  className="profile" />
+        </span>
       </div>
       <h1 className="about">-: About Me :-</h1>
       <hr className="aboutHr" />
       {/*------------------------ABOUT PASE---------------------------*/}
-      <div className="aboutPase" id="about">
+      <div className="aboutPase" id="about" data-aos="zoom-in-down" data-aos-duration="850">
         <h2>ABHAY VISHWAKARMA-</h2>
         <p>
           Hii, I'm abhay vishwakarma, a passionate web developer based in
@@ -198,7 +200,7 @@ const Header = ({ isAuthenticated = false }) => {
         <br />
         <div className="skills">
           {skills.map((skill, index) => (
-            <div className="skill" key={index}>
+            <div className="skill" key={index} data-aos="fade-up" data-aos-duration="800">
               <img src={skill.skillImgUrl} alt=" img error" />
               <h4>{skill.skillName}</h4>
               <p>{skill.skillPercentage} %</p>
@@ -213,8 +215,8 @@ const Header = ({ isAuthenticated = false }) => {
         <hr className="projectHr" />
         <div className="projects">
           {projects.map((project, index) => (
-            <div className="project" key={index}>
-              <div className="box">
+            <div className="project" key={index} data-aos="flip-left" data-aos-duration="800">
+              <div className="box" >
                 <a href={project.sourseCodeOrVideoLink}>
                   <p className="knowmore">know more</p>
                   <img src={project.projectImgUrl} alt="img" />
@@ -237,7 +239,7 @@ const Header = ({ isAuthenticated = false }) => {
         </div>
       </div>
       {/*------------------------CONTACT PASE---------------------------*/}
-      <div id="contact">
+      <div id="contact" data-aos="fade-left" data-aos-duration="800">
         <h1 className="contacthead">Get In Touch</h1>
         <div className="contactpase">
           <div className="contactimg">
