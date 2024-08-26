@@ -1,6 +1,6 @@
 *{
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .loginbtn{
